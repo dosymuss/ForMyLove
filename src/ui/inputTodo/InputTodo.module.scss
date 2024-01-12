@@ -1,0 +1,19 @@
+.main {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  gap: 32.5px;
+  width: 500px;
+  height: 50px;
+  border-radius: 15px;
+  border: 1px solid #000;
+  background: #fff;
+  input{
+    font-size: 20px;
+    font-weight: 500;
+    border:  none;
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+  }
+}

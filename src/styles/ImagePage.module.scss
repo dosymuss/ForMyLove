@@ -1,0 +1,79 @@
+.main {
+  background: linear-gradient(180deg, #ffd686 0%, #000 100%);
+  width: 100%;
+  position: relative;
+  padding: 100px 100px;
+  position: relative;
+}
+
+.cardDiv {
+  margin-top: 61px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.poshBtnOne {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  img{
+    width: 350px;
+    height: 350px;
+  }
+}
+.poshBtnOneHiden{
+  background-color: transparent;
+  outline: none;
+  border: none;
+  position: fixed;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  position: fixed;
+  top: -170px;
+  right: -260px;
+  z-index: 10;
+  img{
+    width: 350px;
+    height: 350px;
+  }
+}
+.poshBtnTwo {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  img{
+    width: 350px;
+    height: 350px;
+  }
+}
+.poshBtnTwoHiden{
+  background-color: transparent;
+  outline: none;
+  border: none;
+  position: fixed;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  position: fixed;
+  bottom: -170px;
+  right: -260px;
+  z-index: 10;
+  img{
+    width: 350px;
+    height: 350px;
+  }
+}
+

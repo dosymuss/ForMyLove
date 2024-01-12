@@ -1,0 +1,62 @@
+.main {
+  background: linear-gradient(180deg, #86ffb7 0%, #000 100%);
+  width: 100vw;
+  height: 100%;
+  position: relative;
+  padding: 100px;
+  overflow-x: hidden;
+}
+
+.mainNoContent {
+  background: linear-gradient(180deg, #86ffb7 0%, #000 100%);
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  padding: 100px;
+  overflow-x: hidden;
+}
+
+.addBtn {
+  width: 200px;
+  height: 50px;
+  background-color: #000;
+  border-radius: 15px;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.bacImg {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.bacImg img {
+  width: 400px;
+  opacity: 0.5;
+}
+
+.contentDiv {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+}
+
+.inpDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.taskDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}/*# sourceMappingURL=TodosPage.module.css.map */

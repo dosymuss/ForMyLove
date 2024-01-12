@@ -1,0 +1,43 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(180deg, #FF8686 0%, #000 100%);
+  position: relative;
+  overflow: hidden;
+  padding: 100px;  
+}
+
+.img{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.desc{
+  margin-top: 40px;
+  text-align: left;
+  width: 500px;
+  color: #FFF;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.pashDiv{
+  margin-top: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  p{
+    text-align: right;
+    color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  transform: scaleX(-1);
+  }
+}

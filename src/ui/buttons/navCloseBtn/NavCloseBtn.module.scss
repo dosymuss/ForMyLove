@@ -1,0 +1,20 @@
+.btn {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  position: fixed;
+  bottom: 30px;
+  left: 20px;
+  cursor: pointer;
+  p{
+    margin: 0;
+  }
+}
